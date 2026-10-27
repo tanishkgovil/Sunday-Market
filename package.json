@@ -1,0 +1,17 @@
+{
+  "name": "sunday-market",
+  "private": true,
+  "type": "module",
+  "scripts": {
+    "dev": "vite --host 127.0.0.1",
+    "build": "vite build",
+    "refresh": "node refresh.js",
+    "test": "node --test market.test.js"
+  },
+  "devDependencies": {
+    "vite": "8.3.5"
+  },
+  "engines": {
+    "node": ">=22.12.0"
+  }
+}

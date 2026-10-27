@@ -1,0 +1,519 @@
+{
+  "season": 2026,
+  "week": 7,
+  "updatedAt": "2026-10-26T06:00Z",
+  "teams": [
+    {
+      "symbol": "SF",
+      "name": "San Francisco 49ers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sf.png",
+      "conference": "NFC",
+      "record": "6–1–0",
+      "forecast": {
+        "wins": 13.13,
+        "ties": 0.023999999999999133,
+        "playoffs": 0.992,
+        "divisional": 0.862,
+        "conference": 0.578,
+        "superBowl": 0.38,
+        "champion": 0.225
+      }
+    },
+    {
+      "symbol": "BUF",
+      "name": "Buffalo Bills",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/buf.png",
+      "conference": "AFC",
+      "record": "5–1–0",
+      "forecast": {
+        "wins": 12.209,
+        "ties": 0.03500000000000014,
+        "playoffs": 0.964,
+        "divisional": 0.704,
+        "conference": 0.406,
+        "superBowl": 0.226,
+        "champion": 0.11200000000000002
+      }
+    },
+    {
+      "symbol": "SEA",
+      "name": "Seattle Seahawks",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/sea.png",
+      "conference": "NFC",
+      "record": "4–3–0",
+      "forecast": {
+        "wins": 10.446,
+        "ties": 0.02800000000000047,
+        "playoffs": 0.718,
+        "divisional": 0.451,
+        "conference": 0.237,
+        "superBowl": 0.12,
+        "champion": 0.062
+      }
+    },
+    {
+      "symbol": "KC",
+      "name": "Kansas City Chiefs",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/kc.png",
+      "conference": "AFC",
+      "record": "5–1–0",
+      "forecast": {
+        "wins": 11.795,
+        "ties": 0.03500000000000014,
+        "playoffs": 0.953,
+        "divisional": 0.672,
+        "conference": 0.374,
+        "superBowl": 0.19699999999999998,
+        "champion": 0.10100000000000002
+      }
+    },
+    {
+      "symbol": "CIN",
+      "name": "Cincinnati Bengals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cin.png",
+      "conference": "AFC",
+      "record": "4–2–0",
+      "forecast": {
+        "wins": 11.819,
+        "ties": 0.026999999999999247,
+        "playoffs": 0.924,
+        "divisional": 0.623,
+        "conference": 0.342,
+        "superBowl": 0.18099999999999997,
+        "champion": 0.091
+      }
+    },
+    {
+      "symbol": "JAX",
+      "name": "Jacksonville Jaguars",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/jax.png",
+      "conference": "AFC",
+      "record": "4–2–0",
+      "forecast": {
+        "wins": 11.347,
+        "ties": 0.03200000000000003,
+        "playoffs": 0.922,
+        "divisional": 0.606,
+        "conference": 0.322,
+        "superBowl": 0.171,
+        "champion": 0.087
+      }
+    },
+    {
+      "symbol": "CHI",
+      "name": "Chicago Bears",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/chi.png",
+      "conference": "NFC",
+      "record": "5–2–0",
+      "forecast": {
+        "wins": 10.99,
+        "ties": 0.032999999999999474,
+        "playoffs": 0.8,
+        "divisional": 0.507,
+        "conference": 0.269,
+        "superBowl": 0.134,
+        "champion": 0.066
+      }
+    },
+    {
+      "symbol": "LAR",
+      "name": "Los Angeles Rams",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lar.png",
+      "conference": "NFC",
+      "record": "3–4–0",
+      "forecast": {
+        "wins": 9.02,
+        "ties": 0.03000000000000025,
+        "playoffs": 0.393,
+        "divisional": 0.229,
+        "conference": 0.111,
+        "superBowl": 0.055,
+        "champion": 0.031
+      }
+    },
+    {
+      "symbol": "NE",
+      "name": "New England Patriots",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ne.png",
+      "conference": "AFC",
+      "record": "4–3–0",
+      "forecast": {
+        "wins": 10.04,
+        "ties": 0.034000000000000696,
+        "playoffs": 0.738,
+        "divisional": 0.358,
+        "conference": 0.155,
+        "superBowl": 0.069,
+        "champion": 0.029000000000000005
+      }
+    },
+    {
+      "symbol": "BAL",
+      "name": "Baltimore Ravens",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/bal.png",
+      "conference": "AFC",
+      "record": "4–3–0",
+      "forecast": {
+        "wins": 9.572,
+        "ties": 0.03500000000000103,
+        "playoffs": 0.498,
+        "divisional": 0.22699999999999998,
+        "conference": 0.094,
+        "superBowl": 0.04,
+        "champion": 0.018
+      }
+    },
+    {
+      "symbol": "DET",
+      "name": "Detroit Lions",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/det.png",
+      "conference": "NFC",
+      "record": "4–2–0",
+      "forecast": {
+        "wins": 10.249,
+        "ties": 0.03599999999999959,
+        "playoffs": 0.679,
+        "divisional": 0.36199999999999993,
+        "conference": 0.162,
+        "superBowl": 0.067,
+        "champion": 0.029000000000000005
+      }
+    },
+    {
+      "symbol": "TB",
+      "name": "Tampa Bay Buccaneers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/tb.png",
+      "conference": "NFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 7.625,
+        "ties": 0.03200000000000003,
+        "playoffs": 0.439,
+        "divisional": 0.214,
+        "conference": 0.094,
+        "superBowl": 0.04100000000000001,
+        "champion": 0.02
+      }
+    },
+    {
+      "symbol": "DAL",
+      "name": "Dallas Cowboys",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/dal.png",
+      "conference": "NFC",
+      "record": "2–4–0",
+      "forecast": {
+        "wins": 8.451,
+        "ties": 0.032999999999999474,
+        "playoffs": 0.524,
+        "divisional": 0.249,
+        "conference": 0.109,
+        "superBowl": 0.046,
+        "champion": 0.02
+      }
+    },
+    {
+      "symbol": "DEN",
+      "name": "Denver Broncos",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/den.png",
+      "conference": "AFC",
+      "record": "5–2–0",
+      "forecast": {
+        "wins": 10.938,
+        "ties": 0.03199999999999914,
+        "playoffs": 0.8169999999999998,
+        "divisional": 0.406,
+        "conference": 0.17800000000000002,
+        "superBowl": 0.075,
+        "champion": 0.03
+      }
+    },
+    {
+      "symbol": "HOU",
+      "name": "Houston Texans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/hou.png",
+      "conference": "AFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 8.058,
+        "ties": 0.032999999999999474,
+        "playoffs": 0.234,
+        "divisional": 0.103,
+        "conference": 0.042,
+        "superBowl": 0.016,
+        "champion": 0.007000000000000001
+      }
+    },
+    {
+      "symbol": "MIN",
+      "name": "Minnesota Vikings",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/min.png",
+      "conference": "NFC",
+      "record": "6–0–0",
+      "forecast": {
+        "wins": 11.743,
+        "ties": 0.03599999999999959,
+        "playoffs": 0.9129999999999999,
+        "divisional": 0.569,
+        "conference": 0.265,
+        "superBowl": 0.105,
+        "champion": 0.046
+      }
+    },
+    {
+      "symbol": "GB",
+      "name": "Green Bay Packers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/gb.png",
+      "conference": "NFC",
+      "record": "4–3–0",
+      "forecast": {
+        "wins": 9.194,
+        "ties": 0.03599999999999959,
+        "playoffs": 0.408,
+        "divisional": 0.19,
+        "conference": 0.072,
+        "superBowl": 0.027000000000000003,
+        "champion": 0.011
+      }
+    },
+    {
+      "symbol": "PIT",
+      "name": "Pittsburgh Steelers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/pit.png",
+      "conference": "AFC",
+      "record": "5–2–0",
+      "forecast": {
+        "wins": 9.835,
+        "ties": 0.034999999999999254,
+        "playoffs": 0.554,
+        "divisional": 0.195,
+        "conference": 0.061,
+        "superBowl": 0.019,
+        "champion": 0.006
+      }
+    },
+    {
+      "symbol": "IND",
+      "name": "Indianapolis Colts",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ind.png",
+      "conference": "AFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 6.975,
+        "ties": 0.030000000000001137,
+        "playoffs": 0.06,
+        "divisional": 0.021,
+        "conference": 0.007000000000000001,
+        "superBowl": 0.002,
+        "champion": 0.001
+      }
+    },
+    {
+      "symbol": "CAR",
+      "name": "Carolina Panthers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/car.png",
+      "conference": "NFC",
+      "record": "3–3–0",
+      "forecast": {
+        "wins": 7.531,
+        "ties": 0.03900000000000148,
+        "playoffs": 0.318,
+        "divisional": 0.11600000000000002,
+        "conference": 0.038,
+        "superBowl": 0.01,
+        "champion": 0.004
+      }
+    },
+    {
+      "symbol": "LAC",
+      "name": "Los Angeles Chargers",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lac.png",
+      "conference": "AFC",
+      "record": "0–6–0",
+      "forecast": {
+        "wins": 4.34,
+        "ties": 0.03500000000000014,
+        "playoffs": 0.002,
+        "divisional": 0.001,
+        "conference": 0,
+        "superBowl": 0,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "ATL",
+      "name": "Atlanta Falcons",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/atl.png",
+      "conference": "NFC",
+      "record": "3–4–0",
+      "forecast": {
+        "wins": 6.995,
+        "ties": 0.03199999999999825,
+        "playoffs": 0.21099999999999997,
+        "divisional": 0.076,
+        "conference": 0.022,
+        "superBowl": 0.006,
+        "champion": 0.002
+      }
+    },
+    {
+      "symbol": "LV",
+      "name": "Las Vegas Raiders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/lv.png",
+      "conference": "AFC",
+      "record": "3–4–0",
+      "forecast": {
+        "wins": 7.027,
+        "ties": 0.03199999999999825,
+        "playoffs": 0.05600000000000001,
+        "divisional": 0.015,
+        "conference": 0.004,
+        "superBowl": 0.001,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "NO",
+      "name": "New Orleans Saints",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/no.png",
+      "conference": "NFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 5.93,
+        "ties": 0.03500000000000014,
+        "playoffs": 0.079,
+        "divisional": 0.026000000000000002,
+        "conference": 0.006,
+        "superBowl": 0.003,
+        "champion": 0.001
+      }
+    },
+    {
+      "symbol": "WSH",
+      "name": "Washington Commanders",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/wsh.png",
+      "conference": "NFC",
+      "record": "1–4–1",
+      "forecast": {
+        "wins": 5.549,
+        "ties": 1.0360000000000014,
+        "playoffs": 0.069,
+        "divisional": 0.021,
+        "conference": 0.006,
+        "superBowl": 0.002,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "CLE",
+      "name": "Cleveland Browns",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/cle.png",
+      "conference": "AFC",
+      "record": "5–2–0",
+      "forecast": {
+        "wins": 8.632,
+        "ties": 0.032999999999999474,
+        "playoffs": 0.268,
+        "divisional": 0.068,
+        "conference": 0.015,
+        "superBowl": 0.003,
+        "champion": 0.001
+      }
+    },
+    {
+      "symbol": "NYJ",
+      "name": "New York Jets",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyj.png",
+      "conference": "AFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 5.45,
+        "ties": 0.028999999999999915,
+        "playoffs": 0.008,
+        "divisional": 0.002,
+        "conference": 0,
+        "superBowl": 0,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "NYG",
+      "name": "New York Giants",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/nyg.png",
+      "conference": "NFC",
+      "record": "4–2–1",
+      "forecast": {
+        "wins": 7.689,
+        "ties": 1.0340000000000007,
+        "playoffs": 0.412,
+        "divisional": 0.11899999999999998,
+        "conference": 0.03,
+        "superBowl": 0.006,
+        "champion": 0.001
+      }
+    },
+    {
+      "symbol": "ARI",
+      "name": "Arizona Cardinals",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ari.png",
+      "conference": "NFC",
+      "record": "2–5–0",
+      "forecast": {
+        "wins": 5.376,
+        "ties": 0.02899999999999814,
+        "playoffs": 0.004,
+        "divisional": 0.001,
+        "conference": 0,
+        "superBowl": 0,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "PHI",
+      "name": "Philadelphia Eagles",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/phi.png",
+      "conference": "NFC",
+      "record": "2–4–0",
+      "forecast": {
+        "wins": 5.518,
+        "ties": 0.03500000000000014,
+        "playoffs": 0.042,
+        "divisional": 0.01,
+        "conference": 0.002,
+        "superBowl": 0,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "TEN",
+      "name": "Tennessee Titans",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/ten.png",
+      "conference": "AFC",
+      "record": "1–6–0",
+      "forecast": {
+        "wins": 3.571,
+        "ties": 0.02400000000000091,
+        "playoffs": 0.001,
+        "divisional": 0,
+        "conference": 0,
+        "superBowl": 0,
+        "champion": 0
+      }
+    },
+    {
+      "symbol": "MIA",
+      "name": "Miami Dolphins",
+      "logo": "https://a.espncdn.com/i/teamlogos/nfl/500/mia.png",
+      "conference": "AFC",
+      "record": "1–5–0",
+      "forecast": {
+        "wins": 3.44,
+        "ties": 0.025000000000000355,
+        "playoffs": 0,
+        "divisional": 0,
+        "conference": 0,
+        "superBowl": 0,
+        "champion": 0
+      }
+    }
+  ]
+}

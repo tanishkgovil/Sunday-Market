@@ -1,0 +1,170 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
+    <meta name="theme-color" content="#f5f6f0" />
+    <title>Sunday Market</title>
+    <link rel="stylesheet" href="/style.css" />
+  </head>
+  <body>
+    <main>
+      <header>
+        <a class="brand" href="/">Sunday<span> Market</span></a>
+        <nav aria-label="Main navigation">
+          <button class="active" data-view="market">Market</button>
+          <button data-view="portfolio">Portfolio</button>
+          <button data-view="activity">Trades</button>
+        </nav>
+        <span class="badge">Virtual money</span>
+      </header>
+
+      <section class="intro">
+        <h1 id="season"></h1>
+        <div class="source">
+          <a
+            href="https://www.espn.com/nfl/fpi/_/view/projections"
+            target="_blank"
+            rel="noreferrer"
+            >ESPN FPI</a
+          >
+          <p id="updated"></p>
+          <button id="refresh" class="text-button">Refresh prices</button>
+        </div>
+      </section>
+
+      <div id="notice" class="notice" role="status" hidden></div>
+      <section class="summary" aria-label="Your portfolio summary">
+        <div>
+          <span>Portfolio value</span><strong id="total"></strong
+          ><small id="return"></small>
+        </div>
+        <div>
+          <span>Cash</span><strong id="cash"></strong>
+        </div>
+        <div>
+          <span>Holdings value</span><strong id="invested"></strong
+          ><small id="positions"></small>
+        </div>
+      </section>
+
+      <section class="panel" id="market-view">
+        <div class="panel-heading">
+          <h2>Teams</h2>
+          <div class="filters">
+            <label class="sr-only" for="search">Search teams</label
+            ><input
+              id="search"
+              type="search"
+              placeholder="Search teams…"
+            /><label class="sr-only" for="conference">Conference</label
+            ><select id="conference">
+              <option value="">All conferences</option>
+              <option>AFC</option>
+              <option>NFC</option>
+            </select>
+          </div>
+        </div>
+        <div class="table-scroll">
+          <table>
+            <thead>
+              <tr>
+                <th>Team</th>
+                <th>Record</th>
+                <th>Projected wins</th>
+                <th>Playoff chance</th>
+                <th>Share price</th>
+                <th><span class="sr-only">Trade</span></th>
+              </tr>
+            </thead>
+            <tbody id="market-rows"></tbody>
+          </table>
+        </div>
+      </section>
+
+      <section class="panel" id="portfolio-view" hidden>
+        <div class="panel-heading">
+          <h2>Holdings</h2>
+        </div>
+        <div id="portfolio-content"></div>
+      </section>
+
+      <section class="panel" id="activity-view" hidden>
+        <div class="panel-heading">
+          <h2>Trade history</h2>
+        </div>
+        <div id="activity-content"></div>
+      </section>
+
+      <details class="rules">
+        <summary>Payout rules <span>+</span></summary>
+        <p>
+          Share prices equal expected season payouts using ESPN FPI projections.
+        </p>
+        <div id="payouts"></div>
+        <p class="muted">
+          Bonuses are cumulative. A first-round bye earns the Divisional Round
+          bonus.
+        </p>
+      </details>
+      <footer>
+        <span>Saved in this browser.</span>
+      </footer>
+    </main>
+
+    <dialog id="ticket" aria-labelledby="ticket-title">
+      <form id="trade-form">
+        <div class="ticket-heading">
+          <h2 id="ticket-title"></h2>
+          <button
+            type="button"
+            id="close-ticket"
+            class="icon-button"
+            aria-label="Close trade"
+          >
+            ×
+          </button>
+        </div>
+        <div id="ticket-price" class="ticket-price"></div>
+        <p id="ticket-record" class="muted"></p>
+        <div class="side-picker" aria-label="Trade direction">
+          <button id="buy-side" type="button" class="active">Buy</button
+          ><button id="sell-side" type="button">Sell</button>
+        </div>
+        <div class="quantity-label">
+          <label for="quantity">Shares</label
+          ><button id="max" type="button" class="text-button">Max</button>
+        </div>
+        <input
+          id="quantity"
+          type="number"
+          min="1"
+          step="1"
+          value="1"
+          required
+          inputmode="numeric"
+        />
+        <div class="order-line">
+          <span id="order-label">Total cost</span
+          ><strong id="order-total"></strong>
+        </div>
+        <div class="order-line muted">
+          <span>Cash</span><span id="ticket-cash"></span>
+        </div>
+        <div class="order-line muted">
+          <span>Shares held</span><span id="ticket-owned"></span>
+        </div>
+        <p id="trade-error" class="error" role="alert"></p>
+        <button id="submit-trade" class="primary" type="submit">
+          Buy shares
+        </button>
+        <details class="breakdown">
+          <summary>Price breakdown</summary>
+          <div id="ticket-breakdown"></div>
+        </details>
+      </form>
+    </dialog>
+    <div id="toast" role="status" hidden></div>
+    <script type="module" src="/app.js"></script>
+  </body>
+</html>
